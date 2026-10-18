@@ -1,0 +1,36 @@
+[
+    {
+        "test_name": "Player score addition",
+        "operation": "add",
+        "a": 10,
+        "b": 5,
+        "expected": 15
+    },
+    {
+        "test_name": "Player score subtraction",
+        "operation": "subtract",
+        "a": 10,
+        "b": 5,
+        "expected": 5
+    },
+    {
+        "test_name": "Incorrect expected score",
+        "operation": "add",
+        "a": 2,
+        "b": 3,
+        "expected": 10
+    },
+    {
+        "test_name": "Unsupported operation",
+        "operation": "divide_wrong",
+        "a": 4,
+        "b": 2,
+        "expected": 2
+    },
+    {
+        "test_name": "Missing player score",
+        "operation": "subtract",
+        "b": 5,
+        "expected": 5
+    }
+]
