@@ -2,7 +2,7 @@ import json
 from test_case import TestCase
 from test_report import TestReport
 # Automated Game Test Runner
-# Runs test cases and reports PASS, FAIL, or ERROR.
+# Executes game tests and displays their results.
 
 if __name__ == "__main__":
     with open("test_cases.json", "r") as file:
