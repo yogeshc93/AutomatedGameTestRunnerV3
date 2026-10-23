@@ -7,6 +7,8 @@ git init
 Created .gitignore to exclude:
 - .venv/
 - __pycache__/
+.pytest_cache/
+*.py[cod]
 
 ## 3. Check and stage files
 git status

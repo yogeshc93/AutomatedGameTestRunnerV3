@@ -1,0 +1,6 @@
+Integration test meaning with example:-
+For example, an integration test could check whether:
+1. test_runner.py reads data from test_cases.json.
+2. The runner creates objects using test_case.py.
+3. The calculations execute correctly.
+4. The runner processes the results correctly.

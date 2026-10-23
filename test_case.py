@@ -1,4 +1,5 @@
 class TestCase:
+    __test__ = False
     def __init__(self, test_name, operation, a, b, expected):
         self.test_name = test_name
         self.operation = operation

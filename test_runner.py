@@ -4,7 +4,7 @@ from test_report import TestReport
 # Automated Game Test Runner
 # Runs automated tests and summarizes their outcomes.
 
-if __name__ == "__main__":
+def run_tests():
     with open("test_cases.json", "r") as file:
         test_cases = json.load(file)
 
@@ -40,7 +40,10 @@ if __name__ == "__main__":
             print(report.test_case.test_name, "ERROR:", e)
             tests_error += 1
 
-print(f"Tests Passed: {tests_passed}")
-print(f"Tests Failed: {tests_failed}")
-print(f"Tests Error: {tests_error}")
-print("---")
+    print(f"Tests Passed: {tests_passed}")
+    print(f"Tests Failed: {tests_failed}")
+    print(f"Tests Error: {tests_error}")
+    print("---")
+
+if __name__ == "__main__":
+    run_tests()
